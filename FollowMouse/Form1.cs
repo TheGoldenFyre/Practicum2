@@ -38,9 +38,11 @@ namespace FollowMouse
         {
             InitializeComponent();
 
+            this.DoubleBuffered = true;
+
             this.Paint += paint;
 
-            this.MouseClick += mouseHandler;
+            this.MouseMove += mouseHandler;
         }
 
         void paint(object o, PaintEventArgs pea)
