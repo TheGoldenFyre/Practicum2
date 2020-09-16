@@ -31,13 +31,19 @@ namespace FollowCircle
             Graphics g = pea.Graphics;
             double r = 100;
             int offsetX = 400, offsetY = 100;
+            int offsetX2 = 100;
             Point midpoint = new Point((int)(offsetX + r), (int)(offsetY + r));
+            Point midpoint2 = new Point((int)(offsetX2 + r), (int)(offsetY + r));
 
             Point ep = followMouse(midpoint, r);
+            Point ep2 = followMouse(midpoint2, r);
 
 
             g.DrawEllipse(new Pen(Brushes.Black), new Rectangle(0 + offsetX, 0 + offsetY, (int)(2 * r), (int)(2 * r)));
+            g.DrawEllipse(new Pen(Brushes.Black), new Rectangle(0 + offsetX2, 0 + offsetY, (int)(2 * r), (int)(2 * r)));
+            
             g.FillEllipse(Brushes.Black, new Rectangle(ep, new Size(eyeWidth, eyeWidth)));
+            g.FillEllipse(Brushes.Black, new Rectangle(ep2, new Size(eyeWidth, eyeWidth)));
         }
 
         Point followMouse(Point midpoint, double r)
