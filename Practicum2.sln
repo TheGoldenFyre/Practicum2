@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FollowMouse", "FollowMouse\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FollowCircle", "FollowCircle\FollowCircle.csproj", "{55673A9E-26C5-418D-93BE-545E9D685037}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pow", "Pow\Pow.csproj", "{BA072022-5082-4A3E-96FD-579132621C95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{55673A9E-26C5-418D-93BE-545E9D685037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55673A9E-26C5-418D-93BE-545E9D685037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55673A9E-26C5-418D-93BE-545E9D685037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA072022-5082-4A3E-96FD-579132621C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA072022-5082-4A3E-96FD-579132621C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA072022-5082-4A3E-96FD-579132621C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA072022-5082-4A3E-96FD-579132621C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
